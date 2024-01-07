@@ -15,7 +15,7 @@ jobs:
         with:
           project: Project Board
           column: New Issue Approval
-          repo-token: ${{ secrets.HACKFORLA_BOT_PA_TOKEN }}
+          repo-token: ${{ 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 }}
 
   Add-Missing-Labels-To-Issues:
     runs-on: ubuntu-latest
