@@ -4,6 +4,7 @@ on:
     types: [opened, closed]
     branches:
       - 'gh-pages'
+      - 'consolidate-reusable-functions-github-actions-TEST'
 
 jobs:
   # Run an echo to confirm that the action was triggered

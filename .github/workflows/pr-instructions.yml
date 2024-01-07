@@ -5,6 +5,7 @@ on:
     branches:
       - 'gh-pages'
       - 'feature-homepage-launch'
+      - 'consolidate-reusable-functions-github-actions-TEST'
 
 jobs:
   Add-Pull-Request-Instructions:
