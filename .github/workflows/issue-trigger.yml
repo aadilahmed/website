@@ -15,7 +15,7 @@ jobs:
         with:
           project: Project Board
           column: New Issue Approval
-          repo-token: ${{ secrets.TEST-GHAS }}
+          repo-token: ${{ secrets.TEST_GHAS }}
 
   Add-Missing-Labels-To-Issues:
     runs-on: ubuntu-latest
