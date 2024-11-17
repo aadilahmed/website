@@ -11,8 +11,8 @@ async function mutateIssueStatus(
   newStatusValue
 ) {
   // Defaults for HfLA Website Project 86
-  const WEBSITE_PROJECT_ID = 'PVT_kwDOALGKNs4Ajuck';
-  const STATUS_FIELD_ID = 'PVTSSF_lADOALGKNs4AjuckzgcCutQ';
+  const WEBSITE_PROJECT_ID = 'PVT_kwHOAOXv7s4Am8FV';
+  const STATUS_FIELD_ID = 'PVTSSF_lAHOAOXv7s4Am8FVzgewfU4';
 
   const mutation = `mutation($projectId: ID!, $fieldId: ID!, $itemId: ID!, $value: String!) {
     updateProjectV2ItemFieldValue(input: {
