@@ -1,5 +1,5 @@
 const obtainLabels = require('../utils/obtain-labels');
-const retrieveLabelDirectory = require('../../utils/retrieve-label-directory');
+const retrieveLabelDirectory = require('../utils/retrieve-label-directory');
 
 /**
  * Check the labels of an issue, and return the 'status' the issue should be sorted into when closed
